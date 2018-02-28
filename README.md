@@ -22,8 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ##A crypto currency trading bot ##
-A humble attempt to calculate taxes for all the trading i did on gdax, kraken, bittrex and binance.
-
+A humble attempt to help calculate taxes for all the trading did on gdax, kraken, bittrex and binance.
+This isn't/may not be perfect, pull requests are appreciated.
 
 ### How do I get set up? ###
 
@@ -32,11 +32,9 @@ A humble attempt to calculate taxes for all the trading i did on gdax, kraken, b
 - Setup a virtual env in the terminal:
 
 ```bash
-mkdir -p $VIRTUAL_ENV
+export VIRTUAL_ENV=.virtualenv/CrytoTaxKitty
 virtualenv --python=/usr/bin/python3.5 $VIRTUAL_ENV
 source $VIRTUAL_ENV/bin/activate
-# install from PyPI read requirements.txt
-pip install -r requirements.txt
 ```
 
 
@@ -60,8 +58,6 @@ Update the exchange keys.
 Change your working directory to "tests" folder
 
 Run a test case Ex: .py.
-
-
 
 
 
